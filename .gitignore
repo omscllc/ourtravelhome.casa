@@ -11,6 +11,8 @@
 !/web/sites/*/settings.php
 /web/sites/*/*services*.yml
 !/web/sites/*/services.yml
+!/web/sites/development.services.yml
+
 # Ignore paths that may contain user-generated content
 #/web/sites/*/files
 #/web/sites/*/public
