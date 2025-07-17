@@ -1,0 +1,22 @@
+uuid: a5fe3cd1-2db5-4e4d-a297-1e10091d5911
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - our_travel_home
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: our_travel_home_content
+theme: our_travel_home
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

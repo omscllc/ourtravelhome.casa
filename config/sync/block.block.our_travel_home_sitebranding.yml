@@ -1,0 +1,23 @@
+uuid: 34ef366f-ba30-457a-b0f2-bb19db77898f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - our_travel_home
+id: our_travel_home_sitebranding
+theme: our_travel_home
+region: header
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

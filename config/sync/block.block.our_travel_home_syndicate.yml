@@ -1,0 +1,23 @@
+uuid: fb156463-19fc-4693-9b3d-b672d9b8be8c
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - our_travel_home
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: our_travel_home_syndicate
+theme: our_travel_home
+region: header
+weight: -4
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

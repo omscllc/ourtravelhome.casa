@@ -1,0 +1,8 @@
+# Schema for the configuration files of the Our Travel Home theme.
+our_travel_home.settings:
+  type: theme_settings
+  label: 'Our Travel Home settings'
+  mapping:
+    example:
+      type: string
+      label: Example
