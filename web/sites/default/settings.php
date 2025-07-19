@@ -76,7 +76,7 @@
  * specific needs.
  *
  * @code
- * $databases['default']['default'] = [
+ * $databases'default']['default'] = [
  *   'database' => 'database_name',
  *   'username' => 'sql_username',
  *   'password' => 'sql_password',
@@ -88,15 +88,6 @@
  * ];
  * @endcode
  */
-$databases['default']['default']['database'] = $_ENV['DB_NAME'];
-$databases['default']['default']['username'] = $_ENV['DB_USER'];
-$databases['default']['default']['password'] = $_ENV['DB_PASSWORD'];
-$databases['default']['default']['host'] = $_ENV['DB_HOST'];
-$databases['default']['default']['port'] = $_ENV['DB_PORT'];
-$databases['default']['default']['driver'] = $_ENV['DB_DRIVER'];
-$databases['default']['default']['prefix'] = $_ENV['DB_PREFIX'];
-$databases['default']['default']['collation'] = $_ENV['DB_COLLATION'];
-$databases['default']['default']['init_commands']['isolation_level'] = 'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED';
 
 /**
  * Location of the site configuration files.
