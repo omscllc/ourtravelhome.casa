@@ -1,17 +1,17 @@
-uuid: caea5c4a-e4d6-4211-b322-7f11b541b56c
+uuid: c0a28785-9723-4ff7-b877-c88b46d46731
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
   theme:
-    - our_travel_home
+    - oth
 _core:
   default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
-id: our_travel_home_messages
-theme: our_travel_home
+id: oth_messages
+theme: oth
 region: header
-weight: -6
+weight: -3
 provider: null
 plugin: system_messages_block
 settings:

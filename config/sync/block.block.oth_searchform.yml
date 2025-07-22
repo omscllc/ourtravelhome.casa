@@ -1,20 +1,20 @@
-uuid: 8f2741c7-f6b4-4347-b43a-bc76d036a1e8
+uuid: 17c7fc7b-c4d6-4d2c-951e-0c8d0b0d5070
 langcode: en
 status: true
 dependencies:
   module:
     - search
   theme:
-    - our_travel_home
-id: our_travel_home_searchform
-theme: our_travel_home
+    - oth
+id: oth_searchform
+theme: oth
 region: sidebar_second
 weight: 0
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: 'Search Our Travel Home'
+  label: Search
   label_display: visible
   provider: search
   page_id: ''

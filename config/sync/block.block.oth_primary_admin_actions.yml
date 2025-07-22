@@ -1,15 +1,15 @@
-uuid: d50353d7-4643-48fc-acb1-3a502f2a3ccd
+uuid: f04e14f9-80ff-4296-a673-b229c083d49a
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
-    - our_travel_home
+    - oth
 _core:
   default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
-id: our_travel_home_primary_admin_actions
-theme: our_travel_home
+id: oth_primary_admin_actions
+theme: oth
 region: header
-weight: -1
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

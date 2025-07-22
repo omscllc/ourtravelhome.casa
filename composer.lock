@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "715be2193782e261aee38658c2b78a49",
+    "content-hash": "62d079c0e409e8329857cd5b24ed7ac6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1606,61 +1606,6 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core."
-        },
-        {
-            "name": "drupal/d8_blog_theme",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/d8_blog_theme.git",
-                "reference": "2.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/d8_blog_theme-2.0.0.zip",
-                "reference": "2.0.0",
-                "shasum": "d757e13c8573e7560d766375785ac65bc38f20f4"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9 || ^10"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.0",
-                    "datestamp": "1696082107",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Abhijeet Sandil",
-                    "homepage": "https://www.drupal.org/user/375875"
-                },
-                {
-                    "name": "dhiraj bhagat",
-                    "homepage": "https://www.drupal.org/user/3205061"
-                },
-                {
-                    "name": "JayKandari",
-                    "homepage": "https://www.drupal.org/user/2876519"
-                },
-                {
-                    "name": "Jitendra verma",
-                    "homepage": "https://www.drupal.org/user/1544832"
-                }
-            ],
-            "homepage": "https://www.drupal.org/project/d8_blog_theme",
-            "support": {
-                "source": "https://git.drupalcode.org/project/d8_blog_theme"
-            }
         },
         {
             "name": "drupal/stable",

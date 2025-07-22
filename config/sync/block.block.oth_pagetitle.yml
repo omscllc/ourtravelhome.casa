@@ -1,15 +1,13 @@
-uuid: 937377bd-b46d-4d67-bf13-817f76bf072c
+uuid: 0a9ec50e-7895-406b-ac84-3d849014c4d9
 langcode: en
 status: true
 dependencies:
   theme:
-    - our_travel_home
-_core:
-  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: our_travel_home_page_title
-theme: our_travel_home
+    - oth
+id: oth_pagetitle
+theme: oth
 region: content
-weight: -8
+weight: -3
 provider: null
 plugin: page_title_block
 settings:

@@ -1,0 +1,22 @@
+uuid: c008bf4e-1c52-4a82-b4d6-e36825352349
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - oth
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: oth_powered
+theme: oth
+region: footer
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

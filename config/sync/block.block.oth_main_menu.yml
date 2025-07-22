@@ -1,4 +1,4 @@
-uuid: d4865dc4-2e9d-4812-ba33-536d00f435e5
+uuid: 024c2a08-955f-4859-a727-da993c03a13e
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - our_travel_home
+    - oth
 _core:
   default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
-id: our_travel_home_main_menu
-theme: our_travel_home
+id: oth_main_menu
+theme: oth
 region: header
-weight: -8
+weight: -5
 provider: null
 plugin: 'system_menu_block:main'
 settings:

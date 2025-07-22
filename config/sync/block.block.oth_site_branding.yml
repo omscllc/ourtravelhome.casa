@@ -1,15 +1,17 @@
-uuid: 34ef366f-ba30-457a-b0f2-bb19db77898f
+uuid: 6d5fef6c-7547-4aad-867a-c88380728014
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - our_travel_home
-id: our_travel_home_sitebranding
-theme: our_travel_home
+    - oth
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: oth_site_branding
+theme: oth
 region: header
-weight: -9
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:
@@ -19,5 +21,5 @@ settings:
   provider: system
   use_site_logo: true
   use_site_name: true
-  use_site_slogan: true
+  use_site_slogan: false
 visibility: {  }

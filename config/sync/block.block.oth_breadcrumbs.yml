@@ -1,17 +1,17 @@
-uuid: 4049c547-22fd-4125-99aa-a0795dd53c08
+uuid: 2c7b3862-0365-4230-bd10-2e66d40938fb
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
   theme:
-    - our_travel_home
+    - oth
 _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
-id: our_travel_home_breadcrumbs
-theme: our_travel_home
-region: header
-weight: -7
+id: oth_breadcrumbs
+theme: oth
+region: breadcrumb
+weight: 0
 provider: null
 plugin: system_breadcrumb_block
 settings:
