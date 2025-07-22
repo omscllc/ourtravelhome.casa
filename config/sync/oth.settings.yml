@@ -1,0 +1,26 @@
+features:
+  node_user_picture: 0
+  comment_user_picture: 0
+  comment_user_verification: 0
+  favicon: 0
+logo:
+  use_default: 0
+  path: 'public://world-travel_2.png'
+favicon:
+  use_default: 1
+slideshow_display: 1
+slide_title_1: ''
+slide_image_1: {  }
+slide_url_1: ''
+slide_title_2: ''
+slide_image_2: {  }
+slide_url_2: ''
+slide_title_3: ''
+slide_image_3: {  }
+slide_url_3: ''
+slide_title_4: ''
+slide_image_4: {  }
+slide_url_4: ''
+slide_title_5: ''
+slide_image_5: {  }
+slide_url_5: ''

@@ -1,0 +1,6 @@
+{
+    "require": {
+      "drupal/core": "^9 || ^10 || ^11",
+      "drupal/classy": "^1.0"
+    }
+  }
