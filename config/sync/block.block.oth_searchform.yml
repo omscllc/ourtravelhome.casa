@@ -1,4 +1,4 @@
-uuid: 17c7fc7b-c4d6-4d2c-951e-0c8d0b0d5070
+uuid: db348eb5-2c65-4788-a623-8a3ee2f92794
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
 id: oth_searchform
 theme: oth
 region: sidebar_second
-weight: 0
+weight: -5
 provider: null
 plugin: search_form_block
 settings:

@@ -1,0 +1,20 @@
+uuid: 4559367e-4163-40b0-88de-cfbe68452472
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oth
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: oth_page_title
+theme: oth
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,4 +1,4 @@
-uuid: c008bf4e-1c52-4a82-b4d6-e36825352349
+uuid: 5ed07f58-1ce1-498c-bbe2-c50aa8e37a4d
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: oth_powered
 theme: oth
-region: footer
-weight: -4
+region: sidebar_second
+weight: -2
 provider: null
 plugin: system_powered_by_block
 settings:

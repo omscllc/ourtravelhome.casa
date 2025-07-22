@@ -1,4 +1,4 @@
-uuid: 024c2a08-955f-4859-a727-da993c03a13e
+uuid: 0f837da0-599d-4e8e-a505-53b875c19315
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: oth_main_menu
 theme: oth
 region: header
-weight: -5
+weight: -2
 provider: null
 plugin: 'system_menu_block:main'
 settings:
