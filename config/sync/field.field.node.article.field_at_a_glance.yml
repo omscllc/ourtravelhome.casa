@@ -1,0 +1,29 @@
+uuid: 77a5cdbb-cfd5-4a18-b0d0-5981eb06e53a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_at_a_glance
+    - node.type.article
+    - taxonomy.vocabulary.glance
+id: node.article.field_at_a_glance
+field_name: field_at_a_glance
+entity_type: node
+bundle: article
+label: 'At a glance'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      glance: glance
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,45 @@
+uuid: b388a09c-6ed7-4db8-8efe-48a163a9b6d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_location
+  module:
+    - address
+    - user
+id: user.user.field_location
+field_name: field_location
+entity_type: user
+bundle: user
+label: 'Lives In'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides:
+    givenName:
+      override: hidden
+    additionalName:
+      override: hidden
+    familyName:
+      override: hidden
+    organization:
+      override: hidden
+    addressLine1:
+      override: hidden
+    addressLine2:
+      override: hidden
+    addressLine3:
+      override: hidden
+    postalCode:
+      override: hidden
+    sortingCode:
+      override: hidden
+    dependentLocality:
+      override: hidden
+  fields: {  }
+field_type: address

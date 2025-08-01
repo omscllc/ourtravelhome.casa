@@ -1,0 +1,13 @@
+<div{{ attributes }}>
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes }}>{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+
+  <div{{ content_attributes.addClass(['oth-header']) }}>
+    {% block content %}
+      <i class="fa-light fa-copyright"></i> {{ 'now'| date('Y') }}. All Rights Reserved
+    {% endblock %}
+  </div>
+</div>

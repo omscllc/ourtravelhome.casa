@@ -5,6 +5,9 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_accessibility
+    - field.field.node.article.field_accessibility_notes
+    - field.field.node.article.field_at_a_glance
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.wide
@@ -25,7 +28,32 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 4
+    region: content
+  field_accessibility:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_accessibility_notes:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
     weight: 2
+    region: content
+  field_at_a_glance:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
     region: content
   field_image:
     type: image
@@ -36,7 +64,7 @@ content:
       image_loading:
         attribute: eager
     third_party_settings: {  }
-    weight: 1
+    weight: 3
     region: content
   field_tags:
     type: entity_reference_label
@@ -44,12 +72,12 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 0
+    weight: 5
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 6
     region: content
 hidden:
   comment: true

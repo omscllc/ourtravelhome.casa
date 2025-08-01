@@ -1,0 +1,9 @@
+uuid: f3f3000b-a97e-4ddd-9100-ef0cd0fcd291
+langcode: en
+status: true
+dependencies: {  }
+name: 'At A Glance'
+vid: glance
+description: 'At-a-glance accessibility indicators'
+weight: 0
+new_revision: false

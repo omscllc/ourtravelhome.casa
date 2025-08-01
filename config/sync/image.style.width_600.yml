@@ -1,0 +1,21 @@
+uuid: 66a02f43-699c-455d-8f11-d7b0c1b81a9f
+langcode: en
+status: true
+dependencies: {  }
+name: width_600
+label: Width_600
+effects:
+  55c2809d-32b9-4a87-85de-8b8d2bd9fac2:
+    uuid: 55c2809d-32b9-4a87-85de-8b8d2bd9fac2
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: null
+      upscale: false
+  fb2f12a4-7ea7-4c05-ab7d-b8bdc20c86d0:
+    uuid: fb2f12a4-7ea7-4c05-ab7d-b8bdc20c86d0
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

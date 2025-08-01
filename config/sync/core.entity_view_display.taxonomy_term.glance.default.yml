@@ -1,0 +1,60 @@
+uuid: 9f0064c1-5ad7-4883-bd63-8c54bfdfdee9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.glance.field_icon_markup
+    - field.field.taxonomy_term.glance.field_second_icon_markup
+    - field.field.taxonomy_term.glance.field_stack_icons
+    - field.field.taxonomy_term.glance.field_stack_markup
+    - taxonomy.vocabulary.glance
+  module:
+    - text
+id: taxonomy_term.glance.default
+targetEntityType: taxonomy_term
+bundle: glance
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_icon_markup:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_second_icon_markup:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_stack_icons:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_stack_markup:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  langcode: true

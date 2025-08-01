@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_at_a_glance
     - node.type.page
   module:
     - text
@@ -22,7 +23,17 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  field_at_a_glance:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
   links:
+    settings: {  }
+    third_party_settings: {  }
     weight: 101
     region: content
 hidden:

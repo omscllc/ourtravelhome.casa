@@ -3,3 +3,114 @@
   max-width: 130px;
   height: 88px;
 }
+
+header .oth-header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 11rem;
+}
+
+footer .oth-header {
+  align-content: center;
+  color: lightgray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+footer.site-footer {
+  text-align: center;
+}
+
+.site-logo {
+  margin-bottom: 6rem;
+}
+
+#block-oth-main-menu {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  width: 100%;
+}
+
+#block-oth-copyright .oth-header {
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: anchor-center;
+  display: inline-flex;
+}
+
+article .field--name-field-tags.field--type-entity-reference .field__items {
+  display: inline-flex;
+  gap: .5rem;
+}
+
+article .field--name-field-tags.field--type-entity-reference div:first-child {
+  margin-right: .5rem;
+}
+
+article .field--name-field-tags .field__item {
+  border-radius: 6px;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  width: fit-content;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  background: lavender;
+}
+
+article .field--name-field-tags.field--type-entity-reference {
+  background: none;
+  display: flex;
+  flex-direction: row;
+}
+
+article .field--name-field-tags.field--type-entity-reference .field__items a {
+  background: lavender;
+}
+
+article .field--name-field-at-a-glance .field__item span {
+  background: lavender;
+  border-radius: 6px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+article .field--name-field-at-a-glance .grid-cell:nth-child(2) {
+  display: inline-flex;
+  gap: .5rem;
+}
+
+i.fa-wheelchair-move {
+  margin-right: -1.5rem
+}
+
+article .accessibility {
+  background: whitesmoke;
+  border-radius: 2rem;
+  margin-bottom: 4rem;
+  padding: 1.25rem;
+}
+
+.container .sidebar .region .views-element-container,
+.container .sidebar .region .search-block-form,
+.container .sidebar .region .navigation {
+  border-radius: 2rem;
+}
+
+#block-oth-copyright .oth-header p,
+#block-oth-copyright .oth-header sup i {
+  color: #fff;
+}
+
+.social-link-field {
+  margin-left: -4.5rem;
+}
+
+.field--name-field-pronouns {
+  margin-bottom: 1.25rem;
+}

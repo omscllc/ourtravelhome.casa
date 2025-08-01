@@ -1,6 +1,7 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
+  address: 0
   admin_toolbar: 0
   announcements_feed: 0
   automated_cron: 0
@@ -21,6 +22,7 @@ module:
   dynamic_page_cache: 0
   editor: 0
   field: 0
+  field_group: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -45,14 +47,19 @@ module:
   responsive_image: 0
   search: 0
   shortcut: 0
+  social_link_field: 0
   system: 0
   taxonomy: 0
   telephone: 0
   text: 0
+  token: 0
   toolbar: 0
+  twig_tweak: 0
   update: 0
   user: 0
   views_ui: 0
+  webshare: 0
+  pathauto: 1
   content_translation: 10
   views: 10
   standard: 1000

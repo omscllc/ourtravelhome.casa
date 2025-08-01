@@ -1,0 +1,22 @@
+uuid: d756b926-870f-4cd0-9deb-97d909e0b5fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: at_a_glance
+label: 'At a glance'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'glance/[term:name]'
+selection_criteria:
+  b4eda9cb-fcb4-4f37-8e7a-fca19fab50b9:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: b4eda9cb-fcb4-4f37-8e7a-fca19fab50b9
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      glance: glance
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,19 @@
+uuid: 27c6e692-4bbc-4931-aedf-d27f5efcc047
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_accessibility_notes
+    - node.type.article
+id: node.article.field_accessibility_notes
+field_name: field_accessibility_notes
+entity_type: node
+bundle: article
+label: 'Accessibility Notes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

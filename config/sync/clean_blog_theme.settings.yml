@@ -1,16 +1,16 @@
 _core:
   default_config_hash: sgTAjq9g4yDm8At86lEfVeZ0Hle8pzghgwnsfgbmNfE
-slideshow_display: 0
-slide_title_1: 'Title 1'
-slide_title_2: 'Title 2'
-slide_title_3: 'Title 3'
-slide_title_4: 'Title 4'
-slide_title_5: 'Title 5'
-slide_url_1: /node
-slide_url_2: /node
-slide_url_3: /node
-slide_url_4: /node
-slide_url_5: /node
+slideshow_display: 1
+slide_title_1: ''
+slide_title_2: ''
+slide_title_3: ''
+slide_title_4: ''
+slide_title_5: ''
+slide_url_1: ''
+slide_url_2: ''
+slide_url_3: ''
+slide_url_4: ''
+slide_url_5: ''
 features:
   node_user_picture: 1
   comment_user_picture: 1
@@ -19,9 +19,16 @@ features:
 logo:
   use_default: 1
 favicon:
-  use_default: 1
-slide_image_1: {  }
-slide_image_2: {  }
-slide_image_3: {  }
-slide_image_4: {  }
-slide_image_5: {  }
+  use_default: 0
+  path: 'public:///favicon.ico'
+  mimetype: image/vnd.microsoft.icon
+slide_image_1:
+  - '16'
+slide_image_2:
+  - '17'
+slide_image_3:
+  - '18'
+slide_image_4:
+  - '19'
+slide_image_5:
+  - '20'
