@@ -1,0 +1,28 @@
+name: Our Travel Home build and deploy
+
+on:
+  push:
+    branches: ['develop']
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to staging
+        uses: appleboy/ssh-action@v1
+        with:
+          host: stg.ourtravelhome.casa
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_KEY }}
+          script: |
+            cd /var/www/stg.ourtravelhome.casa
+            git pull
+            drush sql:dump > /var/www/db_backups/stg-oth.$(date +'%Y-%m-%d_%H:%M:%S').sql
+            composer install
+            drush cr
+            drush cim -y
+            drush updb -y
+            drush cr
+            echo "Site deployed to staging"
+
