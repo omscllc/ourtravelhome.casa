@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap');
+
+.permanent-marker {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rock-salt {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .site-logo {
-  min-width: 88px;
-  max-width: 130px;
   height: 88px;
+  margin-bottom: 6rem;
+  max-width: 130px;
+  min-width: 88px;
+}
+
+.oth-header .site-name {
+  font-size: xxx-large;
+  line-height: unset;
 }
 
 header .oth-header {
@@ -23,17 +43,14 @@ footer.site-footer {
   text-align: center;
 }
 
-.site-logo {
-  margin-bottom: 6rem;
-}
-
 #block-oth-main-menu {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   width: 100%;
 }
 
-#block-oth-copyright .oth-header {
+#block-oth-copyright .oth-header,
+#block-oth-poweredbydrupal .oth-header {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
@@ -113,4 +130,43 @@ article .accessibility {
 
 .field--name-field-pronouns {
   margin-bottom: 1.25rem;
+}
+
+.views-row .views-field-field-display-name {
+  font-size: xxx-large;
+  font-weight: 400;
+}
+
+.views-row .views-field-field-pronouns {
+  font-weight: 400;
+  margin-top: -1.25rem;
+}
+
+.views-row .address {
+  color: black;
+  font-style: italic;
+  line-height: 1.75rem;
+}
+
+.views-row .views-field-field-bio p {
+  line-height: 2rem;
+}
+
+.region-header nav.navigation li a {
+  color: cornflowerblue;
+}
+
+.site-footer__top nav ul.menu {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 1rem;
+  float: left;
+}
+
+#footer-wrap {
+  display: none;
+}
+
+.oth-header .breadcrumb {
+  background: none;
 }

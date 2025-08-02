@@ -2,8 +2,11 @@ uuid: 2d23b3e7-1d4f-4e78-a830-e363da59074a
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
   module:
     - editor
+    - media
 _core:
   default_config_hash: vpZysv3RHJjhYzq7O_q5q8mVlHdrSzKELmXyiX6RtV0
 name: 'Full HTML'
@@ -21,6 +24,12 @@ filters:
     provider: filter
     status: true
     weight: 8
+    settings: {  }
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
     settings: {  }
   filter_caption:
     id: filter_caption
@@ -49,3 +58,24 @@ filters:
     status: true
     weight: 15
     settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72
+  media_embed:
+    id: media_embed
+    provider: media
+    status: true
+    weight: 100
+    settings:
+      default_view_mode: media_library
+      allowed_view_modes:
+        media_library: media_library
+      allowed_media_types:
+        audio: audio
+        image: image
+        remote_video: remote_video
+        video: video

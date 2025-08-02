@@ -13,8 +13,8 @@ dependencies:
     - image.style.width_600
   module:
     - address
+    - expand_collapse_formatter
     - image
-    - text
     - user
 _core:
   default_config_hash: 00zr_RBdTjPjBGITD3h4c1ESQZimjdVCcHGt1trLqIY
@@ -24,10 +24,15 @@ bundle: user
 mode: compact
 content:
   field_bio:
-    type: text_trimmed
+    type: expand_collapse_formatter
     label: hidden
     settings:
       trim_length: 200
+      default_state: collapsed
+      link_text_open: 'Show more'
+      link_text_close: 'Show less'
+      link_class_open: ecf-open
+      link_class_close: ecf-close
     third_party_settings: {  }
     weight: 3
     region: content

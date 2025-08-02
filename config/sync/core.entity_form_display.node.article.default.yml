@@ -10,7 +10,7 @@ dependencies:
     - field.field.node.article.field_at_a_glance
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.thumbnail
+    - image.style.width_600
     - node.type.article
   module:
     - field_group
@@ -90,7 +90,7 @@ content:
     region: content
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
+      preview_image_style: width_600
     third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete_tags

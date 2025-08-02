@@ -11,16 +11,22 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor5: 0
+  ckeditor5_youtube: 0
+  ckeditor_accordion: 0
   comment: 0
   config: 0
+  config_ignore: 0
   config_translation: 0
   contact: 0
   contextual: 0
+  crop: 0
   datetime: 0
   datetime_range: 0
   dblog: 0
   dynamic_page_cache: 0
+  easy_breadcrumb: 0
   editor: 0
+  expand_collapse_formatter: 0
   field: 0
   field_group: 0
   field_ui: 0
@@ -30,6 +36,7 @@ module:
   help: 0
   history: 0
   image: 0
+  image_widget_crop: 0
   inline_form_errors: 0
   language: 0
   link: 0

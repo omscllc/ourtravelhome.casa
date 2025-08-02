@@ -1,0 +1,12 @@
+uuid: 3b3ef9fa-2ac4-4ef9-853f-e1541da65df3
+langcode: en
+status: true
+dependencies: {  }
+label: '1:1'
+id: '1_1'
+description: ''
+aspect_ratio: '1:1'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null
