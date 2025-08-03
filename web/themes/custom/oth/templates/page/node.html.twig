@@ -99,7 +99,9 @@
   {% endif %}
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {% if node.field_accessibility or node.field_at_a_glance or node.field_accessibility_notes %}
+    {% if node.field_accessibility is not empty
+      or node.field_at_a_glance is not empty
+      or node.field_accessibility_notes is not empty %}
     <div class="accessibility">
       {{ content.field_accessibility }}
       {{ content.field_at_a_glance }}
