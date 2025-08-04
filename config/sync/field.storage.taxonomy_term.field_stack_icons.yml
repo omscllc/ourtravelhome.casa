@@ -1,0 +1,18 @@
+uuid: a9dbdef8-c941-4a18-969c-0890455dcdb4
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_stack_icons
+field_name: field_stack_icons
+entity_type: taxonomy_term
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

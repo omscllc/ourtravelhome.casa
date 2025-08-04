@@ -1,0 +1,23 @@
+uuid: bfd172d9-a836-4d55-ba34-98d22e4ad2ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_stack_icons
+    - taxonomy.vocabulary.glance
+id: taxonomy_term.glance.field_stack_icons
+field_name: field_stack_icons
+entity_type: taxonomy_term
+bundle: glance
+label: 'Stack Icons?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

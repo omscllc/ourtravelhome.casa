@@ -1,0 +1,11 @@
+uuid: c8f9652d-5dae-4bce-baa1-d78ab1100765
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.glance
+id: taxonomy_term.glance
+target_entity_type_id: taxonomy_term
+target_bundle: glance
+default_langcode: site_default
+language_alterable: false

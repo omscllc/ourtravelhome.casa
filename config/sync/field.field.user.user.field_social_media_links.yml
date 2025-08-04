@@ -1,0 +1,43 @@
+uuid: c9c19274-a76a-49c6-86af-ca34ea8266b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_social_media_links
+  module:
+    - social_link_field
+    - user
+id: user.user.field_social_media_links
+field_name: field_social_media_links
+entity_type: user
+bundle: user
+label: 'Social Media Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  platforms:
+    email: email
+    instagram: instagram
+    flickr: flickr
+    tiktok: tiktok
+    twitter: twitter
+    youtube: youtube
+    pinterest: pinterest
+    facebook: facebook
+    spotifyalbum: 0
+    vimeo: 0
+    github: 0
+    drupalpage: 0
+    bitbucket: 0
+    drupal: 0
+    behance: 0
+    spotifyplaylist: 0
+    linkedin: 0
+    facebookevent: 0
+    homepage: 0
+    googleplus: 0
+    spotifyartist: 0
+field_type: social_links

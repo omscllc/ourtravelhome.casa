@@ -6,6 +6,9 @@ dependencies:
     - core.entity_view_mode.node.rss
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_accessibility
+    - field.field.node.article.field_accessibility_notes
+    - field.field.node.article.field_at_a_glance
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - node.type.article
@@ -24,6 +27,9 @@ content:
 hidden:
   body: true
   comment: true
+  field_accessibility: true
+  field_accessibility_notes: true
+  field_at_a_glance: true
   field_image: true
   field_tags: true
   langcode: true
