@@ -1,0 +1,17 @@
+_core:
+  default_config_hash: a_EXRfXokVSU2tHLT-BsxRL-gAyOAydZrqejaIQMWu4
+translation_sync: true
+search: false
+type: remove
+content_types:
+  article: user
+  home_page: none
+  page: user
+content_type_modes:
+  article:
+    - full
+    - token
+  home_page: {  }
+  page:
+    - full
+    - teaser

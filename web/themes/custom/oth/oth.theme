@@ -11,7 +11,6 @@ declare(strict_types=1);
  * Implements hook_preprocess_HOOK() for html.html.twig.
  */
 function oth_preprocess_html(array &$variables): void {
-
 }
 
 /**
@@ -36,7 +35,8 @@ function oth_preprocess_node(array &$variables): void {
  * Implements hook_preprocess_HOOK().
  */
 function oth_preprocess_page_title(&$variables) {
-  $is_user_page = str_starts_with(\Drupal::service('path.current')->getPath(), '/user');
+  $current_path = \Drupal::service('path.current')->getPath();
+  $is_user_page = str_starts_with($current_path, '/user');
 
   if ($is_user_page) {
     $display_name = \Drupal\user\Entity\User::load(\Drupal::currentUser()->id())->field_display_name->value;
