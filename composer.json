@@ -32,6 +32,7 @@
         "drupal/core-recommended": "^11",
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/eu_cookie_compliance": "^1.28",
+        "drupal/exclude_node_title": "^2.0",
         "drupal/expand_collapse_formatter": "^2.0",
         "drupal/field_group": "^4.0",
         "drupal/gin": "^5.0",
