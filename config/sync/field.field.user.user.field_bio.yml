@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.user.field_bio
     - filter.format.basic_html
+    - filter.format.full_html
     - filter.format.restricted_html
   module:
     - text
@@ -23,4 +24,5 @@ settings:
   allowed_formats:
     - basic_html
     - restricted_html
+    - full_html
 field_type: text_long
