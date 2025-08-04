@@ -191,3 +191,12 @@ body #main {
   margin-top: -2.2rem;
   line-height: 0;
 }
+
+.oth-header .social-sharing-buttons {
+  margin: 0;
+}
+
+.oth-share {
+  display: inline-flex;
+  flex-direction: row;
+}

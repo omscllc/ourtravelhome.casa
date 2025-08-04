@@ -1,0 +1,15 @@
+uuid: 065afc24-af35-4157-bba3-7e01bcec9e8a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Content
+tags:
+  author: '[node:author:display-name]'
+  canonical_url: '[node:url]'
+  description: '[node:summary]'
+  rights: ' Copyright [node:created:custom:Y] [node:author:display-name].  All rights reserved'
+  robots: 'nofollow, noarchive, max-image-preview:large'
+  title: '[node:title] | [site:name]'

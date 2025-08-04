@@ -126,7 +126,9 @@
       <div id="sidebar-first" class="sidebar {{ sidebarfirst }}" role="complementary">
 	          {{ page.sidebar_first }}
 			  	{{ page.secondary_menu }}
-
+          <div class="oth-share">
+            <i class="fa-light fa-share-nodes"></i> {{ drupal_block("social_sharing_buttons_block") }}
+          </div>
 			  </div>
        <!-- /#sidebar-first -->
     {% endif %}
