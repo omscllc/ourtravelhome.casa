@@ -170,3 +170,24 @@ article .accessibility {
 .oth-header .breadcrumb {
   background: none;
 }
+
+.flexslider.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+body #main {
+  padding-top: .5rem;
+}
+
+.front-page #header {
+  padding-bottom: 0;
+}
+
+.container > .region-breadcrumb {
+  margin-top: -2.2rem;
+  line-height: 0;
+}
