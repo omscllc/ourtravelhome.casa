@@ -1,0 +1,265 @@
+taxonomies:
+  glance:
+    -
+      vid: glance
+      tid: '17'
+      langcode: en
+      name: 'Accessible restroom(s)'
+      description__value: '<p>One or more accessible restrooms are available</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 2fe4a3bb-d133-43fe-938b-317cea58608e
+      field_icon_markup:
+        -
+          value: 'fa-regular fa-restroom-simple'
+      field_second_icon_markup:
+        -
+          value: 'fa-regular fa-wheelchair'
+      field_stack_icons:
+        -
+          value: '1'
+      field_stack_markup:
+        -
+          value: 'fa-stack fa-1x'
+    -
+      vid: glance
+      tid: '8'
+      langcode: en
+      name: 'Easy Walk'
+      description__value: '<p>Flat or nearly flat, making it easy for anyone with limited mobility to move around.</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 4dc09773-9af5-485b-96b4-23bc745f24ec
+      field_icon_markup:
+        -
+          value: 'fa-regular fa-person-walking-with-cane'
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+    -
+      vid: glance
+      tid: '16'
+      langcode: en
+      name: Elevator(s)
+      description__value: '<p>The facility has one or more elevators</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 2974befb-ffb2-43ca-8e26-19907acfc388
+      field_icon_markup:
+        -
+          value: 'fa-regular fa-elevator'
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+    -
+      vid: glance
+      tid: '6'
+      langcode: en
+      name: Hills
+      description__value: '<p>One or more hills that are steep. May be a problem for some mobility devices or individuals with limited mobility.</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: bf293fcb-c592-4f23-9647-0cb0eb3615d6
+      field_icon_markup:
+        -
+          value: 'fa-regular fa-mound'
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+    -
+      vid: glance
+      tid: '10'
+      langcode: en
+      name: 'No curb cuts'
+      description__value: '<p>There are no or limited curb cuts. Persons using mobility devices will have to either lift their devices up and down over the curb or look for a convenient driveway</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 85d2d901-4093-4c8a-a75b-ca31e32670af
+      field_icon_markup: {  }
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+    -
+      vid: glance
+      tid: '13'
+      langcode: en
+      name: 'No sidewalks'
+      description__value: '<p>There are very few, or no sidewalks in this area</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 0798f8e8-e5e7-40e0-8649-65c461305e90
+      field_icon_markup:
+        -
+          value: 'fa-regular fa-road-barrier'
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+    -
+      vid: glance
+      tid: '12'
+      langcode: en
+      name: 'Plenty of curb cuts'
+      description__value: '<p>Curb cuts are frequently available, making it very accessible for someone using a mobility device or that has mobility issues</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 8319c4db-9a14-4cc6-b4aa-831804ebc73a
+      field_icon_markup: {  }
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+    -
+      vid: glance
+      tid: '9'
+      langcode: en
+      name: 'Poor sidewalks or construction'
+      description__value: '<p>Many sidewalks or streets are broken up or under construction</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 0c124a54-db54-4ba3-aa55-8fbc85f04187
+      field_icon_markup:
+        -
+          value: 'fa-regular fa-traffic-cone'
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+    -
+      vid: glance
+      tid: '15'
+      langcode: en
+      name: Ramps
+      description__value: '<p>Ramps are available in addition to stairs.</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: 57751b78-34a1-4139-a9a7-e7341e024dd0
+      field_icon_markup: {  }
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+    -
+      vid: glance
+      tid: '11'
+      langcode: en
+      name: 'Some curb cuts'
+      description__value: '<p>There are some curb cuts, but there could be more. You will have to get creative, lift your mobility device up and down at some street crossings, or even ride in the street</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: ad5bcb61-7727-4533-8d09-0eb8527d70f9
+      field_icon_markup: {  }
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+    -
+      vid: glance
+      tid: '14'
+      langcode: en
+      name: Stairs/Steps
+      description__value: '<p>There are stairs or steps at this facility. There may be alternatives, and if there are, they will be listed as well.</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: b1142103-8bcd-4d4b-a269-21808eec3dfd
+      field_icon_markup:
+        -
+          value: 'fa-regular fa-stairs'
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+    -
+      vid: glance
+      tid: '7'
+      langcode: en
+      name: 'Steep hills'
+      description__value: '<p>Very steep hills, difficult for most individuals and mobility devices</p>'
+      description__format: basic_html
+      weight: '0'
+      parent: '0'
+      uuid: e7ec926e-4f51-4ed2-b984-3cb6e8d74aeb
+      field_icon_markup:
+        -
+          value: 'fa-regular fa-mountain'
+      field_second_icon_markup: {  }
+      field_stack_icons:
+        -
+          value: '0'
+      field_stack_markup: {  }
+  tags:
+    -
+      vid: tags
+      tid: '2'
+      langcode: en
+      name: 'El Carrito'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 720df878-c6d4-4156-8b00-c297091997b2
+    -
+      vid: tags
+      tid: '3'
+      langcode: en
+      name: 'El Rojo Grande'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 999d5b14-5378-484d-ba4d-4589eb15949b
+    -
+      vid: tags
+      tid: '5'
+      langcode: en
+      name: Mérida
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '1'
+      uuid: 5850feda-b6de-4c78-9d37-17a156a7e0dd
+    -
+      vid: tags
+      tid: '1'
+      langcode: en
+      name: Mexico
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 9d35ed74-9888-4245-a4d2-20a09add40db
+    -
+      vid: tags
+      tid: '4'
+      langcode: en
+      name: Myan
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 335ea6ca-e6b0-47c0-85f0-33b86d52feb0
