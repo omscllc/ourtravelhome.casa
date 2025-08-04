@@ -70,11 +70,22 @@
  * @ingroup themeable
  */
 #}
-<div id="page-wrapper">
+{% set attributes = create_attribute() %}
 
+{% if is_front %}
+  {% set attributes = attributes.addClass('front-page') %}
+{% endif %}
+
+<div{{ attributes.setAttribute('id', 'page-wrapper') }}>
+  <header role="banner" id="header" class="clearfix container">
+    <div class="container">
+      {{ page.header }}
+    </div>
+  </header>
+  <div class="container">{{ page.breadcrumb }}</div>
   {# Include a slider. #}
   {% if slider %}
-    <div class="flexslider">
+    <div class="flexslider container">
       <ul class="slides">
         {% for slide in slider %}
           <li>
@@ -86,18 +97,14 @@
     </div>
   {% endif %}
 
-  <header role="banner" id="header" class="clearfix container">
-    <div class="container">
-      {{ page.header }}
-    </div>
-  </header>
+
 
   {% if page.highlighted %}
     <div id="highlighted"><div class="container">
 	<div class="row">{{ page.highlighted }}</div>
 	</div></div>
   {% endif %}
-	<div class="container">{{ page.breadcrumb }}</div>
+
   {# Home Highlight regions. #}
   {% if page.home_high1 or page.home_high2 or page.home_high3 %}
     <div id="home-highlights" class="row">
