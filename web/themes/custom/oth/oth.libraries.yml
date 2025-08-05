@@ -2,25 +2,8 @@
 global:
   css:
     base:
-      css/oth.css: {}
-      css/colors.css: {}
-      css/grid.css: {}
+      css/oth.min.css: {minified: true}
   js:
-    js/oth.js: {}
+    js/oth.min.js: {minified: true}
   dependencies:
     - clean_blog_theme/global-css
-    - oth/fontawesome
-
-fontawesome:
-  css:
-    theme:
-      fontawesome/css/duotone.min.css: {minified: true}
-      fontawesome/css/duotone-light.min.css: {minified: true}
-      fontawesome/css/duotone-regular.min.css: {minified: true}
-      fontawesome/css/duotone-thin.min.css: {minified: true}
-      fontawesome/css/light.min.css: {minified: true}
-      fontawesome/css/regular.min.css: {minified: true}
-      fontawesome/css/solid.min.css: {minified: true}
-      fontawesome/css/thin.min.css: {minified: true}
-      fontawesome/css/brands.min.css: { minified: true }
-      fontawesome/css/fontawesome.min.css: {minified: true}

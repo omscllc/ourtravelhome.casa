@@ -2,7 +2,7 @@
 
 Our Travel Home Website
 
-## 2.0.02
+## 2.0.2
 * Moved header above slider
 * Allow Full HTML editor in profile bio field
 * Added metatags

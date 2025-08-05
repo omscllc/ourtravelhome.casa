@@ -184,3 +184,10 @@ bh_unicode_properties.cache
 GitHub.sublime-settings
 
 /recipes/README.txt
+
+# Node dependencies
+/node_modules/
+
+# Ignore the .crush directory.
+.crush
+

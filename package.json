@@ -1,0 +1,39 @@
+{
+  "name": "ourtravelhome.casa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass web/themes/custom/oth/src/scss/main.scss web/themes/custom/oth/css/oth.css",
+    "minify:css": "css-minify -f web/themes/custom/oth/css/oth.css -o web/themes/custom/oth/css/",
+    "clean:css": "rm web/themes/custom/oth/css/oth.css",
+    "build:css": "npm-run-all scss minify:css clean:css",
+    "watch:css": "npm-run-all -p scss -- -w",
+    "concat:js": "find web/themes/custom/oth/src/js -name '*.js' | xargs concat -o web/themes/custom/oth/js/oth.js",
+    "minify:js": "terser web/themes/custom/oth/js/oth.js -o web/themes/custom/oth/js/oth.min.js --compress --mangle",
+    "clean:js": "rm web/themes/custom/oth/js/oth.js",
+    "build:js": "npm-run-all concat:js minify:js clean:js",
+    "watch:js": "find web/themes/custom/oth/src/js -name '*.js' | xargs concat -o web/themes/custom/oth/js/oth.js -w",
+    "build": "npm-run-all build:css build:js",
+    "watch": "npm-run-all -p watch:css watch:js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dweinerATL/ourtravelhome.casa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dweinerATL/ourtravelhome.casa/issues"
+  },
+  "homepage": "https://github.com/dweinerATL/ourtravelhome.casa#readme",
+  "description": "",
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "css-minify": "^2.1.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.89.2",
+    "terser": "^5.43.1"
+  }
+}

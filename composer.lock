@@ -3387,18 +3387,26 @@
         },
         {
             "name": "dweineratl/clean_blog_theme",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dweinerATL/clean_blog_theme.git",
-                "reference": "a1064f2d3dca21754a1d441a79ee8506821a7227"
+                "reference": "e9a490123e7217ba2ff0ced7a81573f200c6201d"
             },
             "require": {
                 "drupal/classy": "^2.0",
                 "drupal/core": "^9 || ^10 || ^11"
             },
             "type": "drupal-theme",
-            "time": "2025-07-23T06:22:00+00:00"
+            "authors": [
+                {
+                    "name": "David L. Weiner",
+                    "email": "David.L.Weiner30030@gmail.com",
+                    "role": "Developer, Maintainer"
+                }
+            ],
+            "description": "A clean blog theme forked from drupal/d8_blog_theme",
+            "time": "2025-08-05T22:10:22+00:00"
         },
         {
             "name": "egulias/email-validator",

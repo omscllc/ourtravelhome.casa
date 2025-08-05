@@ -40,4 +40,3 @@ function oth_preprocess_user(&$variables): void {
     $variables['edit_link_url'] = \Drupal\Core\Url::fromRoute('entity.user.edit_form', ['user' => $user_id]);
   }
 }
-
