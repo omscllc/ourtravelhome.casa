@@ -11,7 +11,6 @@ dependencies:
     - image
     - node
     - text
-    - user
 id: articles
 label: Articles
 module: views
@@ -26,7 +25,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Articles
+      title: 'Latest Articles'
       fields:
         field_image:
           id: field_image
@@ -287,9 +286,8 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       access:
-        type: perm
-        options:
-          perm: 'access content'
+        type: none
+        options: {  }
       cache:
         type: tag
         options: {  }
@@ -361,7 +359,6 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
       tags:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_image'
@@ -380,7 +377,6 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
       tags:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_image'
