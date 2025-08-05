@@ -8,19 +8,6 @@ declare(strict_types=1);
  */
 
 /**
- * Implements hook_preprocess_HOOK() for html.html.twig.
- */
-function oth_preprocess_html(array &$variables): void {
-}
-
-/**
- * Implements hook_preprocess_HOOK() for page.html.twig.
- */
-function oth_preprocess_page(array &$variables): void {
-
-}
-
-/**
  * Implements hook_preprocess_HOOK() for node.html.twig.
  */
 function oth_preprocess_node(array &$variables): void {
@@ -35,20 +22,22 @@ function oth_preprocess_node(array &$variables): void {
  * Implements hook_preprocess_HOOK().
  */
 function oth_preprocess_page_title(&$variables) {
-  $current_path = \Drupal::service('path.current')->getPath();
-  $is_user_page = str_starts_with($current_path, '/user');
+  if (\Drupal::routeMatch()->getRouteName() === 'entity.user.canonical') {
+    /** @var Drupal\user\Entity\User $user */
+    $user = \Drupal::routeMatch()->getParameter('user');
 
-  if ($is_user_page) {
-    $display_name = \Drupal\user\Entity\User::load(\Drupal::currentUser()->id())->field_display_name->value;
-    $variables['title'] = $display_name;
+    if ($user && $user->hasField('field_display_name') && !empty($user->get('field_display_name'))) {
+      $variables['title'] = $user->get('field_display_name')->value;
+    }
   }
 }
 
 function oth_preprocess_user(&$variables): void {
-  if ($variables['logged_in']) {
+  $user_id = $variables['user']->id();
+  $logged_in_user_id = \Drupal::currentUser()->id();
+  if ($variables['logged_in'] && $user_id == $logged_in_user_id) {
     // Inject edit account link to the variables;
-    $user = \Drupal::currentUser();
-    $variables['edit_link_url'] = \Drupal\Core\Url::fromRoute('entity.user.edit_form', ['user' => $user->id()]);
+    $variables['edit_link_url'] = \Drupal\Core\Url::fromRoute('entity.user.edit_form', ['user' => $user_id]);
   }
 }
 

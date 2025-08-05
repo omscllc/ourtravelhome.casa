@@ -17,8 +17,11 @@
  */
 #}
 <article{{ attributes.addClass('profile') }}>
-  {% if content %}
-    {{- content -}}
-  {% endif %}
-  <a href="{{ edit_link_url }}"><i class="fa-light fa-user-pen"></i> Edit your profile</a>
+    {% if content %}
+        {{- content -}}
+    {% endif %}
+
+    {% if edit_link_url %}
+        <a href="{{ edit_link_url }}"><i class="fa-light fa-user-pen"></i> Edit your profile</a>
+    {% endif %}
 </article>

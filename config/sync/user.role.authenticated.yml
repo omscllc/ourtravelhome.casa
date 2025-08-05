@@ -25,6 +25,7 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'access user profiles'
   - 'delete own files'
   - 'display eu cookie compliance popup'
   - 'post comments'
