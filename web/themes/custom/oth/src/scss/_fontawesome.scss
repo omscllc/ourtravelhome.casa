@@ -1,0 +1,11 @@
+@use "variables";
+
+// Import Font Awesome
+@use "../fontawesome/scss/brands/fontawesome" as fa-brands;
+@use "../fontawesome/scss/classic/fontawesome" as fa-classic;
+@use "../fontawesome/scss/classic/regular" as fa-regular;
+@use "../fontawesome/scss/classic/solid" as fa-solid;
+@use "../fontawesome/scss/classic/thin" as fa-thin;
+@use "../fontawesome/scss/duotone/fontawesome" as fa-duotone;
+
+$fa-font-path: variables.$web-fonts-path;

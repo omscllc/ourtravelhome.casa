@@ -1,0 +1,44 @@
+@use "variables";
+
+.color {
+  &-seagreen {
+    color: variables.$seagreen;
+  }
+  &-lavender {
+    color: variables.$lavender;
+  }
+  &-cornflowerblue {
+    color: variables.$cornflowerblue;
+  }
+  &-navy {
+    color: variables.$navy;
+  }
+  &-royalblue {
+    color: variables.$royalblue;
+  }
+}
+
+article {
+  .field--name-field-tags.field--type-entity-reference .field__items a,
+  .field--name-field-at-a-glance .field__item span {
+    background: variables.$lavender;
+  }
+
+  .accessibility {
+    background: variables.$whitesmoke;
+  }
+}
+
+#block-oth-copyright .oth-header {
+  p, sup i {
+    color: variables.$white;
+  }
+}
+
+.views-row .address {
+  color: variables.$black;
+}
+
+.region-header nav.navigation li a {
+  color: variables.$cornflowerblue;
+}

@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-gap: var(--grid-gap, 1rem);
+  grid-template-columns: var(--grid-template-columns, 10rem 200rem);
+  margin-bottom: 2rem;
+
+  > .grid-cell {
+    font-weight: bold;
+  }
+}
